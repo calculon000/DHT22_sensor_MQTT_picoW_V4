@@ -18,17 +18,17 @@ The Pico needs a tiny amount of power. I was able to power one of my sensors usi
 # Software Installation:
 1. Use Thonny and connect Pico W to your PC
 2. Install MicroPython on the Pico
-    Run->Configure Interpreter
-    Interpreter Tab:
-	    Select "MicroPython (Raspberry Pi Pico)"
-	    Click "link" that says "Install or update MicroPython"
+    - Run->Configure Interpreter
+    - Interpreter Tab:
+	    - Select "MicroPython (Raspberry Pi Pico)"
+	    - Click "link" that says "Install or update MicroPython"
 
 3. Install micropython-umqtt.simple
-    once MicroPython is installed;
-    tools->Manage Packages
-    search "umqtt simple" in search field
-    Click "link" that says "micropython-umqtt.simple"
-    follow install instructions
+    - once MicroPython is installed;
+    	- tools->Manage Packages
+    	- search "umqtt simple" in search field
+    	- Click "link" that says "micropython-umqtt.simple"
+    	- follow install instructions
 
 4. Add DHT22_sensor_MQTT_picoW_V4.py to Pico as main.py
 
